@@ -1,0 +1,23 @@
+:root {
+  --main-color: #087F5B;
+  --gray-color: #343A40;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+} 
+  
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: var(--gray-color);
+}
