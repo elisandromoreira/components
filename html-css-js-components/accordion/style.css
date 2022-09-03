@@ -63,6 +63,8 @@ body {
   width: 2.4rem;
   height: 2.4rem;
   stroke: var(--main-color);
+
+  transition: all .5s ease-in-out;
 }
 
 .hidden-box {
@@ -111,5 +113,5 @@ body {
 }
 
 .open .icon {
-  transform: rotate(180deg);
+  transform: rotateX(180deg);
 }
